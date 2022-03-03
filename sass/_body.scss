@@ -1,0 +1,38 @@
+.body {
+  position: relative;
+
+  .content-body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+
+  .content-title-body {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+  }
+  .btn-content {
+    width: 150px;
+    font-size: 15px;
+    border-radius: 12px;
+  }
+  .btn-content-buy {
+    background: 0;
+    border: solid white 1px ;
+    color: #fff;
+  }
+
+  .btn-content-inqui {
+    color: #000;
+    background-color: #fff;
+  }
+}

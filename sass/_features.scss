@@ -1,0 +1,37 @@
+.features {
+	height: 70px;
+
+  .features-lr {
+		background-color: #f8f8f8;
+
+		.features-icon {
+			height: 23px;
+		}
+
+		.features-content {
+			font-size: 16px;
+			font-weight: 600;
+			color: #000;
+		}
+	}
+
+	.features-mid {
+		background-color: #f51167;
+
+		.features-icon-mid {
+			height: 30px;
+		}
+
+		.features-content-mid {
+			font-size: 16px;
+			color: #fff;
+			font-weight: 600;
+		}
+	}
+}
+
+@media(max-width: 769px) {
+	.features {
+		display: none;
+	}
+}

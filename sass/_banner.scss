@@ -1,0 +1,54 @@
+.banner-left {
+  background-image: url(../assets/img/jellyfish-698521_1280.jpg.jpg.webp);
+  background-size: cover;
+  background-position: top center;
+}
+
+.banner-right {
+  background-image: url(../assets/img/milky-way-2695569_1280.jpg.jpg.webp);
+  background-size: cover;
+  background-position: top center;
+}
+
+.banner {
+  height: 250px;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  border-radius: 30px;
+  position: relative;
+
+  .text-uppercase {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    color: #fff;
+    background-color: #f51167;
+    padding: 0 10px;
+  }
+
+  .text-while {
+    margin-top: 50px;
+    margin-left: 25px;
+    text-transform: uppercase !important;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .text-light {
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .btn-banner {
+    margin-left: 25px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #f51167;
+    border-radius: 10px;
+    min-width: 147px;
+    height: 45px;
+  }
+}

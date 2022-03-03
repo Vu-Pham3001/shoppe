@@ -1,0 +1,39 @@
+.title-pro-filter {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+.pi-pic {
+  background-image: url(../assets/img/img-body1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 47%;
+  position: relative;
+
+  .text-pro-filter {
+    position: absolute;
+    left: 16px;
+    top: 14px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #50e550;
+    padding: 0 10px;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  .icon-pro-filter {
+    margin-left: 85%;
+  }
+
+  .heart-pro-filter {
+    padding: 5px;
+    background-color: #f0f0f0;
+  }
+
+  .bag-pro-filter {
+    padding: 5px;
+    background-color: #f0f0f0;
+  }
+}

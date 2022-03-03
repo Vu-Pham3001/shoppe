@@ -1,0 +1,44 @@
+.feedback {
+  background-image: url(../assets/img/feedback.jpg.jpg.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	height: 205px;
+	border-radius: 15px;
+	position: relative;
+}
+
+.feedback-new {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	font-size: 14px;
+	background-color: #50e550;
+	color: #fff;
+	padding: 0 10px;
+	border-radius: 10px;
+}
+
+.feedback-intro {
+	height: 100%;
+	margin-left: 15px;
+	color: #fff;
+}
+
+.title-feedback {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.feedback-content {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.btn-feedback {
+	background-color: #f51167;
+	font-size: 14px;
+	border: none;
+	border-radius: 10px;
+	min-width: 167px;
+}

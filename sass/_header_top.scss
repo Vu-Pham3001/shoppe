@@ -1,0 +1,20 @@
+.header_top {
+  .title-header {
+    color: #000;
+  }
+
+  .title-header:hover {
+    text-decoration: none;
+  }
+
+  // ::placeholder {
+  //   margin-left: 10px;
+  // }
+
+  .search {
+    background-color: #ccc;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+  }
+}

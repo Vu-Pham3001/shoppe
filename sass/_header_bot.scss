@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #282828 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #e70c1e !important;
+}
+
+.navbar-light {
+  .navbar-toggler {
+    background-color: #565656;
+    color: #fff;
+  }
+}

@@ -1,0 +1,122 @@
+.footer {
+  background-color: #282828;
+  padding-bottom: 10px;
+
+  .title-footer {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top: 15px;
+  }
+
+  .content-about {
+    color: #8f8f8f;
+    margin-bottom: 25px;
+  }
+
+  .card-footer {
+    max-width: 100%;
+  }
+
+  .title-link {
+    margin-left: 22px;
+  }
+
+  a {
+    color: #8f8f8f;
+  }
+
+  .img-blog-footer-top {
+    background-image: url(../assets/img/blog-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-right: 22px;
+  }
+
+  .img-blog-footer-bot {
+    background-image: url(../assets/img/blog-footer2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-right: 22px;
+  }
+
+  .title-contact {
+    color: #f51167;
+    font-size: 20px;
+  }
+
+  .c::after {
+    content: "RVM SeaMaf ";
+    color: #8f8f8f;
+    margin-left: 5px;
+  }
+
+  .b::after {
+    content: "108 Chinhoyi Street, Central Business District, Harare Zimbabwe ";
+    color: #8f8f8f;
+    margin-left: 5px;
+  }
+
+  .t::after {
+    content: "+263782149840";
+    color: #8f8f8f;
+    margin-left: 5px;
+  }
+
+  .e::after {
+    content: "rvmseamaf@gmail.com";
+    color: #8f8f8f;
+    margin-left: 5px;
+  }
+
+  .icon-contact-footer {
+    font-size: 26px;
+  }
+}
+
+@media(min-width : 992px) {
+  .icon-inta::after {
+    content: "INSTAGRAM";
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-left: 10px;
+  }
+
+  .icon-pinter::after {
+    content: "PINTEREST";
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-left: 10px;
+  }
+
+  .icon-face::after {
+    content: "FACEBOOK";
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-left: 10px;
+  }
+
+  .icon-twi::after {
+    content: "TWITTER";
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-left: 10px;
+  }
+
+  .icon-ytb::after {
+    content: "YOUTUBE";
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-left: 10px;
+  }
+
+  .icon-linked::after {
+    content: "LINKEDIN";
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-left: 10px;
+  }
+}
