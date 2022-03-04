@@ -1,0 +1,59 @@
+.img-login-left {
+	width: 45%;
+  background: url(../assets/img/img-login-left.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 45%;
+}
+
+.card-body-login {
+	width: 55%;
+
+	.title-login {
+		font-size: 24px;
+		font-weight: 600;
+		color: #111;
+		margin-top: 0.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.form-input {
+		width: 85%;
+		margin-bottom: 0.5rem;
+		height: 45px;
+	}
+
+	.remember {
+		width: 85%;
+	}
+
+	.btn-login {
+		width: 85%;
+		background-color: #f51167;
+		height: 45px;
+		border: none;
+		border-radius: 10px;
+		font-size: 90%;
+		font-weight: 700;
+		color: #fff;
+	}
+
+	.forgot-pass {
+		width: 85%;
+		display: flex;
+		flex-direction: row-reverse;
+		color: #007bff;
+		font-weight: 700;
+	}
+}
+
+@media(max-width: 769px) {
+	.img-login-left {
+		display: none;
+	}
+
+	.card-body-login {
+		width: 100%;
+	}
+}
